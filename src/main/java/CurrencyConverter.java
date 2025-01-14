@@ -3,7 +3,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.URI;
 import java.util.Scanner;
-import org.json.JSONObject; // Necesitarás añadir la dependencia org.json para procesar la respuesta JSON
+import org.json.JSONObject;
 
 public class CurrencyConverter {
 
@@ -25,7 +25,7 @@ public class CurrencyConverter {
             System.out.println("6. Salir");
 
             int option = scanner.nextInt();
-            scanner.nextLine(); // Consumir el salto de línea
+            scanner.nextLine();
 
             if (option == 6) {
                 System.out.println("¡Gracias por usar el conversor de monedas!");
